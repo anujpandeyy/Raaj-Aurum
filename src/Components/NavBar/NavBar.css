@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-around;
+    background: var(--primary-color);
+    box-sizing: border-box;
+}
+
+.header .logo{
+    font-size: 20px;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+
+.navbar a{
+    margin-left: 6rem;
+    font-size: 20px;
+    color: var(--secondary-color);
+    font-weight: 500;
+
+}
