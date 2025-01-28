@@ -21,8 +21,8 @@ function Hero() {
             </div>
             <div className="hero-img">
                 <img className='hero-1' src={Hero1} alt="hero-img-1" />
-                <img className='hero-1' src={Hero2} alt="hero-img-1" />
-                <img className='hero-1' src={Hero3} alt="hero-img-1" />
+                <img className='hero-2' src={Hero2} alt="hero-img-1" />
+                <img className='hero-3' src={Hero3} alt="hero-img-1" />
                 
             </div>
         </div>
