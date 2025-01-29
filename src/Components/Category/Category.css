@@ -33,3 +33,39 @@
     display: flex;
     gap: 3rem;
 }
+.photo {
+    margin-top: 10rem;
+    margin-left: 7rem;
+    overflow: hidden; 
+    width: 80%;
+}
+
+.photo-img {
+    display: flex;
+    width: 400%; /* Width of all images combined */
+    animation: slide 40s linear infinite;
+}
+
+.photo-img img {
+    width: 25%; /* Each image takes up 25% of the total width */
+    height: 439px;
+    object-fit: cover; 
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-25%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    75% {
+        transform: translateX(-75%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
