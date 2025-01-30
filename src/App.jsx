@@ -11,6 +11,7 @@ import Hero1 from '../src/assets/ring-hero.jpg';
 import Hero2 from '../src/assets/ring-hero-2.jpg';
 import Hero3 from '../src/assets/ring-hero-3.jpg';
 import Hero4 from '../src/assets/ring-hero-4.jpg';
+import Review from './Components/Review/Review';
 
 
 
@@ -45,6 +46,7 @@ function App(){
        <div style={containerStyles}>
        <BestSeller slides = {slides}></BestSeller>
        </div>
+       <Review></Review>
     </>
   );
 }
